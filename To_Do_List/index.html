@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[LIST]</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/b8ab99693a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"><b>[LIST]</b> </a>
+
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/To_Do_List/" class="navbar_links"> Home </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links"> About </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links"> Sign_In </a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/" class="button" > <b> Sign_Up </b> </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="/images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Enter Task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li>Task-1</li>
+                <li>Task-2</li>
+                <li>Task-3</li> -->
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
