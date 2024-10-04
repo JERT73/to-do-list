@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    font-family:'Kumbh Sans',sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #09302b 0%, #062223 100%);
+}
+
+.container {
+    width: 400px;
+    padding: 70px;
+    background-color: #7AB37C ;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#error-message {
+    color: rgb(222, 7, 7);
+    font-size: 16px;
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.popup {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: white;
+    display: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
