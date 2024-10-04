@@ -5,7 +5,8 @@ const listContainer = document.getElementById("list-container");
 //add tasks based on user prompt
 function addTask(){
     if(inputBox.value===''){
-        alert("You must write something!");
+        // alert("You must write something!");
+        inputBox.placeholder = "You must enter something!";
     }
     else{
         let li=document.createElement("li");
