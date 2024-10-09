@@ -14,7 +14,7 @@ document.getElementById("createAccountBtn").addEventListener("click", function (
         successMessage.style.color = "green";
 
         setTimeout(() => {
-            window.location.href = "index.html"; // Redirect to Login Page
+            window.location.href = '/to-do-list/loginpage/'; // Redirect to Login Page
         }, 1000);
     }
 });

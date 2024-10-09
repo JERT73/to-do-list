@@ -17,6 +17,7 @@ document.getElementById("loginBtn").addEventListener("click", function () {
         // Hide the pop-up message after 2 seconds
         setTimeout(() => {
             popupMessage.style.display = "none";
+            location.href='/to-do-list/landing_page/';
         }, 1000);
     }
 });

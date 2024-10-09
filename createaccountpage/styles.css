@@ -6,13 +6,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #418B7E , #4E977A);
+    background: linear-gradient(to right, #09302b 0%, #062223 100%);
 }
 
 .container {
     width: 400px;
     padding: 70px;
-    background-color: #F7F4D1 ;
+    background-color: #87c689;
     border-radius: 15px;
     text-align: center;
 }
@@ -25,6 +25,7 @@ h1 {
 
 .input-group {
     margin-bottom: 15px;
+    margin-right: 25px;
 }
 
 input {
@@ -36,7 +37,9 @@ input {
 }
 
 #success-message {
-    color: rgb(46, 214, 9);
+    /* color: rgb(46, 214, 9); */
+    background-color: #87c689;
+    color: #09302b;
     font-size: 16px;
     display: none;
 }
@@ -45,9 +48,15 @@ button {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    background-color: green;
+    background: #09302b;
     color: white;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: #f7f4d1;
+    color: #09302b;
+    transition: all 0.3s ease;
 }
 
 .popup {
@@ -56,8 +65,8 @@ button {
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
-    background-color: green;
-    color: white;
+    background-color: #87c689;
+    color: #09302b;
     display: none;
     border-radius: 10px;
     font-weight: bold;
